@@ -17,7 +17,7 @@ st.markdown(page_element, unsafe_allow_html=True)
 
 st.title( 'Loan Prediction using Machine Learning', )
 
-model = pickle.load(open('D:\\data_science_repo\\Load_Prediction\\model.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
 
 Gender = st.number_input('Gender')
 Married = st.number_input('Married')
