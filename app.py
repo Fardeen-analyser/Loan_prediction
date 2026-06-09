@@ -72,7 +72,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        with open("D:\\data_science_repo\\Heart_disease_prediction\\model.pkl", "rb") as file:
+        with open("model.pkl", "rb") as file:
             model = pickle.load(file)
         return model
     except Exception as e:
